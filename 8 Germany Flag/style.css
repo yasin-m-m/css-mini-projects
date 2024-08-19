@@ -1,0 +1,33 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flag{
+    height: 150px;
+    width: calc(150px*5/3);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 3px;
+    
+}
+.stripe{
+    flex-grow: 1;
+}
+.black{
+    background: #000;
+}
+.red{
+    background: red;
+}
+.yellow{
+    background: yellow;
+}

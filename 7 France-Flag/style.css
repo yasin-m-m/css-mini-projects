@@ -1,0 +1,32 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flag{
+    height: 150px;
+    width: calc(150px*3/2);
+    display: flex;
+}
+
+.stripe{
+    flex-grow: 1;
+}
+.red{
+    background: red;
+}
+.white{
+    background: white;
+}
+.blue{
+    background: blue;
+}

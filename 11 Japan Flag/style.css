@@ -1,0 +1,29 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #ff0000, #00ff00);
+}
+.flag{
+    height: 150px;
+    width: calc(150px*3/2);
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.circle{
+    height: calc(150px*3/5);
+    width: calc(150px*3/5);
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+}

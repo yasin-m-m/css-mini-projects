@@ -1,0 +1,37 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.flag{
+    height: 150px;
+    width: calc(150px*3/2);
+    display: flex;
+}
+
+.white{
+    width: 75px;
+    background: white;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+}
+.red{
+    background: red;
+    height: 50%;
+    width: 150px;
+}
+.green{
+    height: 50%;
+    background: green;
+    width: 150px;
+}

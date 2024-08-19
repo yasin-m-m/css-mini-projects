@@ -1,0 +1,35 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #ff0000, #00ff00);
+}
+
+.flag {
+    height: 210px;
+    width: calc(210px*8/5);
+    background: blue;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.horizontal{
+    width: 100%;
+    background: yellow;
+    height: calc(210px*2/10);
+    
+}
+.vertical{
+    position: absolute;
+    height: 100%;
+    width: calc(210px*2/10);
+    background: yellow;
+    left: calc(210px*2/5);
+}

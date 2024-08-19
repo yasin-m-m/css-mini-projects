@@ -1,0 +1,99 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: gray;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: back infinite 5s;
+}
+
+.circle1{
+    width: 28rem;
+    height: 28rem;
+    background: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: change1 infinite 1s;
+    
+}
+
+.circle2{
+    width: 21rem;
+    height: 21rem;
+    background: blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: change2 infinite 1.5s;
+}
+.circle3{
+    width: 14rem;
+    height: 14rem;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: change3 infinite 2s;
+
+}
+.circle4{
+    width: 7rem;
+    height: 7rem;
+    background: yellow;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: change4 infinite 2.5s;
+}
+@keyframes change1 {
+    from{
+        background:black;
+    }
+    to {
+        background: black;
+    }
+}
+@keyframes change2 {
+    from{
+        background:blue;
+    }
+    to {
+        background: red;
+    }
+}
+@keyframes change3 {
+    from{
+        background:red;
+    }
+    to {
+        background: blue;
+    }
+}
+@keyframes change4 {
+    from{
+        background:black;
+    }
+    to {
+        background: black;
+    }
+}
+@keyframes back {
+    from{
+        background:black;
+    }
+    to {
+        background: #ffffff;
+    }
+}

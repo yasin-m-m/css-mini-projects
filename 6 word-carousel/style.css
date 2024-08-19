@@ -1,0 +1,43 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 3rem;
+    color: white;
+}
+.word{
+    margin-right: 5px;
+}
+.word:after{
+    content: "";
+    animation: change infinite 6s;
+    background: #00ff00;
+    color: black;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+@keyframes change {
+    0%{
+        content: " Programming";
+    }
+    25%{
+        content: " Developing";
+    }
+    50%{
+        content: " Freelancing";
+    }75%{
+        content: " Content Creation";
+    }100%{
+        content: " Programming";
+    }
+}
